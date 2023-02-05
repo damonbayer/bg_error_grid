@@ -28,6 +28,7 @@ penalty_functions_plot <-
   theme_minimal_grid() +
   theme(legend.position = "bottom")
 
+# Save Figures ------------------------------------------------------------
 save_plot(
   filename = path("figures", "penalty_functions_plot", ext = "png"),
   plot = penalty_functions_plot

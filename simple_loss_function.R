@@ -39,3 +39,10 @@ simple_loss_function_grid_plot <-
   ggtitle("Simple Loss Function",
     subtitle = "Based on Various Penalty Functions"
   )
+
+# Save Figures ------------------------------------------------------------
+save_plot(
+  filename = path("figures", "simple_loss_function_grid_plot", ext = "png"),
+  plot = simple_loss_function_grid_plot,
+  ncol = 2, nrow = 2
+)
